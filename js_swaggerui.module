@@ -43,7 +43,6 @@ function js_swaggerui_activedocs() {
   drupal_add_css(drupal_get_path('module', 'js_swaggerui') . '/css/reset.css', array('weight' => 1));
   drupal_add_css(drupal_get_path('module', 'js_swaggerui') . '/css/screen.css', array('weight' => 2));
   drupal_add_css(drupal_get_path('module', 'js_swaggerui') . '/css/print.css', array('weight' => 3));
-  drupal_add_css(drupal_get_path('module', 'js_swaggerui') . '/css/style.css', array('weight' => 4));
 
 
   //Add Standard .js includes from Swagger-UI Distribution	
