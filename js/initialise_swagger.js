@@ -4,7 +4,7 @@
 */
 
 /**
-* SwaggerUI_Drupal V0.1
+* SwaggerUI_Drupal
 * Custom call for drupal to invoke swagger ui javascript
 */
 
@@ -65,5 +65,5 @@
       		}
       	}
   	};
-  	
+
 })(jQuery);
