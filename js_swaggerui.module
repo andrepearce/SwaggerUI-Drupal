@@ -64,7 +64,7 @@ function js_swaggerui_activedocs() {
   // Customised call to invoke the Swagger-UI javascript API
   drupal_add_js(drupal_get_path('module', 'js_swaggerui') . '/js/initialise_swagger.js', array('weight' => 20));
   
-  $output = '<div id="message-bar" class="swagger-ui-wrap">&nbsp;</div><div id="swagger-ui-container" class="swagger-ui-wrap"></div>';
+  $output = '<div class="swagger-section"><div id="message-bar" class="swagger-ui-wrap">&nbsp;</div><div id="swagger-ui-container" class="swagger-ui-wrap"></div></div>';
 
   return $output;
 }
