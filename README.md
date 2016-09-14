@@ -8,13 +8,13 @@ It implements the release Swagger-UI 2.2.2, official swagger-ui repo found at ht
 ******************************************************
 INSTALL NOTES:
 
-1) Clone this directory to the /sites/all/modules/ directory in your Drupal 7 instance.
+1) Clone this directory to the `/sites/all/modules/` directory in your Drupal 7 instance.
 
 2) Enable the Swagger UI Page in Drupal
 
-3) Navigate to http://{yourdomain}/api/ActiveDocs
+3) Navigate to `http://{yourdomain}/api/ActiveDocs`
 
-4) To change the swagger resource loaded add `?url=` to your web address e.g. http://{yourdomain}/api/ActiveDocs?url={yourSwaggerResourceLocationURL}
+4) To change the swagger resource loaded add `?url=` to your web address e.g. `http://{yourdomain}/api/ActiveDocs?url={yourSwaggerResourceLocationURL}`
 ******************************************************
 
 -- Andre Pearce
