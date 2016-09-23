@@ -23,7 +23,7 @@
 function js_swaggerui_menu() {
   $items = array();
   $items['api/activedocs'] = array(
-    'title' => 'ActiveDocs',
+    'title' => 'API Explorer',
     'page callback' => 'js_swaggerui_activedocs',
     'access callback' => TRUE,
     'menu_name' => 'ActiveDocs',
